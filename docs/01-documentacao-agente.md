@@ -1,43 +1,53 @@
-# Documentação do Agente
+Entendido! Aqui está o documento ajustado e melhorado, sem linguagem de IA generativa, mantendo um tom mais técnico e direto:
+
+```markdown
+# Documentação do Agente - Iara
 
 ## Caso de Uso
 
 ### Problema
-> Qual problema financeiro seu agente resolve?
-
-[Sua descrição aqui]
+Planejamento de metas financeiras pessoais.
 
 ### Solução
-> Como o agente resolve esse problema de forma proativa?
+Abordagem educativa e simplificada para educação financeira, utilizando linguagem clara e exemplos práticos.
 
-[Sua descrição aqui]
+Funcionalidades proativas:
+- Sugestão de metas baseada no perfil do usuário
+- Dicas contextuais durante a conversa
+- Adaptação de explicações ao nível de conhecimento identificado
+- Incentivo a ações que geram hábitos financeiros
 
 ### Público-Alvo
-> Quem vai usar esse agente?
-
-[Sua descrição aqui]
+Pessoas em início de jornada no universo financeiro que buscam:
+- Organização financeira básica
+- Aprendizado de conceitos fundamentais
+- Criação e acompanhamento de metas realistas
+- Desenvolvimento de relação saudável com dinheiro
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Iara
 
 ### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
-
-[Sua descrição aqui]
+- Educativa
+- Paciente
+- Sem julgamento sobre dados ou gastos do cliente
 
 ### Tom de Comunicação
-> Formal, informal, técnico, acessível?
-
-[Sua descrição aqui]
+Formal e acessível, com uso de analogias e exemplos.
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+
+| Contexto | Exemplo |
+|----------|---------|
+| Saudação inicial | "Olá! Sou a Iara. Como posso ajudar com suas metas financeiras hoje?" |
+| Confirmação | "Entendi. Deixe-me verificar essas informações." |
+| Progresso de meta | "Você atingiu 50% da sua meta. O plano está funcionando." |
+| Limitação | "Não tenho essa informação. Posso ajudar com planejamento de metas ou conceitos básicos." |
+| Dúvida não compreendida | "Não entendi. Pode reformular sua pergunta?" |
 
 ---
 
@@ -59,10 +69,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | Chatbot em Streamlit |
+| LLM | Modelo de linguagem via API |
+| Base de Conhecimento | Dados estruturados em JSON/CSV |
+| Validação | Verificação de respostas fora do escopo |
 
 ---
 
@@ -70,12 +80,57 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] Respostas baseadas exclusivamente nos dados fornecidos
+- [x] Indicação de fonte quando aplicável
+- [x] Admissão de desconhecimento com redirecionamento
+- [x] Ausência de recomendações de investimento sem perfil completo
 
 ### Limitações Declaradas
-> O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- Não faz recomendações de investimentos
+- Não processa dados sensíveis (senhas, documentos, etc.)
+
+---
+
+## Fluxos Principais
+
+### Onboarding
+Apresentação do agente e definição do escopo de atuação.
+
+### Criação de Meta
+Identificação do objetivo, valor necessário, prazo e plano de economia.
+
+### Acompanhamento
+Check-ins periódicos e ajustes conforme necessidade.
+
+### Educação Financeira
+Explicação de conceitos sob demanda, com analogias.
+
+---
+
+## Métricas de Acompanhamento
+
+- Frequência de interações por usuário
+- Taxa de retorno após primeira semana
+- Metas criadas vs. metas concluídas
+- Feedback dos usuários
+- Respostas dentro do escopo
+
+---
+
+## Próximos Passos
+
+- [ ] Módulo de cálculo de juros compostos
+- [ ] Biblioteca de analogias por perfil
+- [ ] Lembretes para check-ins de metas
+- [ ] Suporte a múltiplas moedas
+- [ ] Expansão da base de conhecimento
+- [ ] Detecção de sentimento para respostas
+```
+
+**Resumo das alterações:**
+- Removido tom excessivamente promocional
+- Eliminadas expressões características de IA ("jornada", "celebra", etc.)
+- Linguagem mais direta e técnica
+- Estrutura mantida, conteúdo simplificado
+- Checklists e tópicos objetivos
