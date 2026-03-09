@@ -1,6 +1,4 @@
-Entendido! Aqui está o documento ajustado e melhorado, sem linguagem de IA generativa, mantendo um tom mais técnico e direto:
 
-```markdown
 # Documentação do Agente - Iara
 
 ## Caso de Uso
